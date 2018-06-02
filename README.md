@@ -1,5 +1,6 @@
 # ss
 
+```
 本脚本适用环境
 系统支持：CentOS 6+，Debian 7+，Ubuntu 12+
 内存要求：≥128M
@@ -84,6 +85,7 @@ Shadowsocks-Go 版：
 
 Shadowsocks-libev 版：
 /etc/shadowsocks-libev/config.json
+```
 
 
 解决 Vultr 东京机房夜间丢包率高的问题：
