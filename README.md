@@ -88,8 +88,8 @@ Shadowsocks-libev 版：
 ```
 
 
-解决 Vultr 东京机房夜间丢包率高的问题：
 ```
+解决 Vultr 东京机房夜间丢包率高的问题：
 sudo su
 wget -N --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
 ```
