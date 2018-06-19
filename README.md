@@ -93,3 +93,7 @@ Shadowsocks-libev 版：
 sudo su
 wget -N --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
 ```
+```
+uname -r
+查看内核版本，显示为最新版就表示 OK 了
+```
