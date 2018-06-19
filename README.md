@@ -96,4 +96,20 @@ wget -N --no-check-certificate https://github.com/teddysun/across/raw/master/bbr
 ```
 uname -r
 查看内核版本，显示为最新版就表示 OK 了
+
+sysctl net.ipv4.tcp_available_congestion_control
+返回值一般为：
+net.ipv4.tcp_available_congestion_control = bbr cubic reno
+或者为：
+net.ipv4.tcp_available_congestion_control = reno cubic bbr
+
+sysctl net.ipv4.tcp_congestion_control
+返回值一般为：
+net.ipv4.tcp_congestion_control = bbr
+
+sysctl net.core.default_qdisc
+返回值一般为：
+net.core.default_qdisc = fq
+
+lsmod | grep bbr
 ```
